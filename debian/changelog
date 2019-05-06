@@ -1,3 +1,13 @@
+isc-dhcp (4.3.5-3ubuntu7.1) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: DoS via change in bind behaviour (LP: #1781699)
+    - debian/patches/CVE-2019-6470.patch: use 0 instead of -1 to indicate
+      empty heap index in includes/dhcpd.h, server/mdb6.c,
+      server/tests/mdb6_unittest.c.
+    - CVE-2019-6470
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Mon, 06 May 2019 09:00:01 -0400
+
 isc-dhcp (4.3.5-3ubuntu7) bionic; urgency=medium
 
   * bind-includes.patch: Copied from Debian to fix build with bind

@@ -34,3 +34,4 @@ dhcp-improved-xid-correct-byte-order.patch
 dhcp-4.2.4-dhclient-options-changed.patch
 ubuntu-dhcpd-conf.patch
 CVE-2018-573x.patch
+CVE-2019-6470.patch
