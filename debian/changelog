@@ -1,3 +1,12 @@
+isc-dhcp (4.3.5-3ubuntu7.2) bionic; urgency=medium
+
+  * Fix env variable for INTERFACES (LP: #1894172)
+    - d/isc-dhcp-server.isc-dhcp-server{,6}.service: Replace $INTERFACES
+      variable with $INTERFACEv4 and $INTERFACESv6, respectively, for
+      respective services file.
+
+ -- Utkarsh Gupta <utkarsh.gupta@canonical.com>  Wed, 10 Mar 2021 19:57:51 +0530
+
 isc-dhcp (4.3.5-3ubuntu7.1) bionic-security; urgency=medium
 
   * SECURITY UPDATE: DoS via change in bind behaviour (LP: #1781699)
