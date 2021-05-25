@@ -1,3 +1,11 @@
+isc-dhcp (4.3.5-3ubuntu7.3) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: DoS via incorrect option information parsing
+    - debian/patches/CVE-2021-25217.patch: fix parsing in common/parse.c.
+    - CVE-2021-25217
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Tue, 25 May 2021 06:50:53 -0400
+
 isc-dhcp (4.3.5-3ubuntu7.2) bionic; urgency=medium
 
   * Fix env variable for INTERFACES (LP: #1894172)
